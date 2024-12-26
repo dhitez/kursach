@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: fadeInBackground 1s ease-in-out;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeInContainer 1s ease-in-out;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form input {
+    margin-bottom: 15px;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 15px;
+}
